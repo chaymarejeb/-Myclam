@@ -1,0 +1,7 @@
+.imgBackground {
+  background-image: url('../../assets/images/slider_image_home@2x.png');
+  background-repeat: no-repeat;
+  background-size:100% auto;
+  height: 600px;
+
+}

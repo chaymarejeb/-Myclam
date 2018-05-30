@@ -1,0 +1,29 @@
+<section>
+    <div class="container" *ngFor="let categorie of categories">
+      <div class="row align-items-center">
+        <div class="p-5">
+          <div>
+            <h1 class="purple-text">{{categorie.description}}</h1>
+            <div class="container-cards">
+
+
+              <div class="card-item" *ngFor="let service of categorie.Services">
+                <div class="card" routerLink="/reservation/1">
+                  <div class="card-body">
+                    <blockquote class="blockquote bq-primary">
+                      <p class="bq-title">{{service.label_service}}</p>
+                      <p>{{service.description_service}}</p>
+                    </blockquote>
+
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+

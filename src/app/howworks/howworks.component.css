@@ -1,0 +1,34 @@
+h5{
+  color: crimson;
+  margin-left: 40%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.pad{
+  padding-left: 20%;
+  padding-right: 10%
+}
+small{
+  margin-top:22% ;
+}
+.mat-raised-button{
+  color: cornsilk;
+ background-color: crimson;
+ margin-left: 40%;
+  margin-top: 10%;
+  margin-bottom: 10%
+
+}
+.work{
+  padding-right: 49px;
+    padding-left: 40px;
+}
+.imgBackground {
+  background-image: url('../../assets/images/mobile_phones@1x.png');
+  background-repeat: no-repeat;
+  background-size:100% auto;
+  height: 400px;
+}
+.colobackground{
+  background-color: lightgray;
+}

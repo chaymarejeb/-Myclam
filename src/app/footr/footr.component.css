@@ -1,0 +1,14 @@
+.transparent{
+  background-color: transparent;
+  color: white;
+}
+img{
+  padding: 0 40%;
+  margin-top: 82px;
+}
+h1,p{color: aliceblue;}
+.footr-button-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
